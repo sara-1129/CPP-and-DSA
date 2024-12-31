@@ -15,14 +15,14 @@ void printDivisor(int n)
 
             }
         }
-
+    }
         sort(divisors.begin(),divisors.end());
         for (auto it: divisors)
         {
             cout << it << " ";
         }
        
-    }
+    
 }
 int main()
 {
